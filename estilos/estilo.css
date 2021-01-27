@@ -1,0 +1,51 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    background: #636e72;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bold;
+    border: solid black;
+    border-radius: 8px;
+}
+
+nav{
+   border-top: 2em;
+   border-bottom : 2em;
+}
+
+h1, h3, h2{
+    text-align: center;
+}
+
+p{
+    margin: 8px ;
+}
+
+body {
+    margin: 30px;
+    background:#dfe6e9;
+}
+footer{
+    text-align: end;
+}
+
+#foto1 {
+    width: 30%;
+    border-radius: 4px;
+    display: flex;
+}
+
+a{
+    transition: 0.3s all;
+}
+
+a:hover {
+    font-size: 20px;
+    color: red;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}

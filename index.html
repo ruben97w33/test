@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatuajes</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Registrarse</li>
+                <li>Contactanos</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div>
+            <h1>Tatuajes</h1>
+            <div class="imagen"> <img src="./fotos/tatoo1.jfif" alt="Foto de un tatuaje" width="30%" id="foto1"> </div>
+            
+            <h2>Origen del tatuaje</h2>
+            <p>No se sabe con exactitud, ya que se cree que este arte era conocido por numerosas culturas alrededor del mundo, pero practicado de forma diferente. Se apunta a los hombres euroasiáticos del periodo Neolítico como los primeros
+                "tatuadores", hace más 5 mil años, a juzgar por los restos encontrados a finales del siglo XX, en Siberia y el delta del Danubio. A partir de entonces, se sabe que en Egipto, lugar del que provienen los pigmentos de henna (que se convertiría
+                también en un fenómeno en el sur de la India), las mujeres eran tatuadas para representar su estatus social y muchos momias eran marcadas. Al mismo tiempo, la cultura celta y germánica utilizaban el arte del tatuaje con fines bélicos; los
+                japoneses tatuaban figuritas de barro que acompañaban a los difuntos en su camino al paraíso, y los aztecas tatuaban especialmente a los niños con tal de rendir tributo a dioses como Quauhtli.
+            </p>
+
+            <h2>Tipos de Tatuajes</h2>
+            <ol>
+                <li> <a href="./Blackwork.html" target="_blank">Blackwork:</a>  solo con tinta negra.</li> 
+                <li>Tradicional (Old School)</li>
+                <img src="./fotos/tatoo5.jfif" alt="" width="50px">
+                <li>Neotradicional (Neotrad o New School)</li>
+                <img src="./fotos/tatoo6.jfif" alt="" width="50px">
+                <li>Dotwork (puntillista)</li>
+                <li>Black & Grey.</li>
+                <li>Acuarela.</li>
+                <img src="./fotos/tatoo7.jfif" alt="" width="50px">
+                <li>Japonés Tradicional y Neo Japonés.</li>
+                <li>Realista.</li>
+            </ol>
+
+            <h2>Mejores Tatuadores</h2>
+            <h3>Paul Booth</h3>
+            <div class="imagen"><img src="./fotos/Paul Booth.jfif" alt=""></div>
+            <h3>Bob Tyrrell</h3>
+            <div class="imagen"><img src="./fotos/Bob tyrrel.jfif" alt=""></div>
+            <h3>Kat Von D</h3>
+            <div class="imagen"><img src="./fotos/Kat Von D.jfif" alt=""></div>
+            <h3>Ami James</h3>
+            <div class="imagen"><img src="./fotos/Ami James.jfif" alt=""></div>
+
+            <h2>Rellena este formulario si quieres un tatuaje</h2>
+            <form action="">
+                <label for="name">Nombre: </label><input type="text" id="name" placeholder="Nombre" required>
+                <label for="last_name">Apellido </label> <input type="text" id="last_name" placeholder="Apellido" required>
+                <label for="Age">Edad </label> <input type="number" id="Age" placeholder="Edad" min="18" required>
+                <label for="">Tatuador Solicitado</label> 
+                    <select name="tatuadores" >
+                        <option value="Paul" id="t1">Paul Booth</option>
+                        <option value="Bob" id="t2">Bob Tyrrell</option>
+                        <option value="Kat" id="t3">Kat Van D</option>
+                        <option value="Ami" id="t4">Ami Jmaes</option>
+                    </select>
+
+                    <input type="checkbox" name="condiciones" id="condiciones" required>
+                    <label for="condiciones">Acepta los terminos Y condiciones</label>
+                    <br>
+                    <br>
+                    <button>Enviar</button>
+                    
+            </form>
+            <br>
+        </div>
+    </main>
+
+    <footer>Copyrith 20021</footer>
+</body>
+
+</html>
